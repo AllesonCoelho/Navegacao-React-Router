@@ -5,7 +5,7 @@ const Home = props => {
     return (
         <aside className="Home">
             <h1>Inicio</h1>
-            <p>Bem vindo</p>
+            <h2>Bem vindo</h2>
 
         </aside>
 

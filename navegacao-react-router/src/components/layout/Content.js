@@ -3,6 +3,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import About from '../../views/examples/About'
 import Home from '../../views/examples/Home'
+import Param from '../../views/examples/Param'
 
 
 const Content = props => {
@@ -13,7 +14,11 @@ const Content = props => {
                     <About/>
 
                 </Route>
-                <Route path="/">
+                <Route path="/param/:id">
+                    <Param/>
+
+                </Route>
+                <Route exact path="/">
                     <Home/>
 
                 </Route>

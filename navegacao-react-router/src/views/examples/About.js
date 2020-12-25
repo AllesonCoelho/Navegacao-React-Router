@@ -5,7 +5,7 @@ const About = props => {
     return (
         <aside className="About">
             <h1>Conponente About</h1>
-            <p>O nosso sistema foi criado com sucesso</p>
+            <h2>O nosso sistema foi criado com sucesso</h2>
 
         </aside>
 
