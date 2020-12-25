@@ -1,12 +1,16 @@
 import React from 'react'
 
 
-const Home = props =>{
-    <aside className="Home">
-        <h1>Inicio</h1>
-        <p>Bem vindo</p>
+const Home = props => {
+    return (
+        <aside className="Home">
+            <h1>Inicio</h1>
+            <p>Bem vindo</p>
 
-    </aside>
+        </aside>
+
+    )
+
 }
 
 
